@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.pg1{
+    height: 90vh;
+    width: 100%;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+}
+form{
+height: 73vh;
+width: 30vw;;
+background-color:pink;
+border-radius: 1vmax;
+padding-top: 3vmax;
+margin-bottom: 2vmax;
+
+}
+.pg1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vmax;
+    padding-bottom: 2vmax;
+}
+input{
+    padding: 0.7vmax 3vmax;
+    margin-left: 5vmax;
+margin-top: 1vmax;
+text-align: center;
+font-size: 1.2vmax;
+border-radius: 0.5vmax;
+border: 2px solid black;
+
+}
+textarea{
+    margin-top: 1vmax;
+    margin-left: 5vmax;
+border: 2px solid black;
+
+}
+button{
+    margin-left: 12vmax;
+    margin-top: 2vmax;
+    padding: 0.7vmax 1.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    border-radius: 0.5vmax;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.date{
+    padding: 0.7vmax 5.7vmax;
+    margin-left: 5vmax;
+margin-top: 1vmax;
+text-align: center;
+font-size: 1.2vmax;
+border-radius: 0.5vmax;
+}

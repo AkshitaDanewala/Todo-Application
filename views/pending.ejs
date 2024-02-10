@@ -1,0 +1,31 @@
+<%- include("partials/header")%>
+<%- include("partials/nav")%>
+<link rel="stylesheet" href="/stylesheets/pending.css">
+
+<div class="container">
+   
+    <div class="card-box">
+     
+        <% Task.forEach(function(task, i){ %>
+        <div class="card">
+            <h2><span>ID:</span><%= task.id%></h2>
+            <h2><span>TITLE:</span><%= task.title%></h2>
+            <p><span>DESCRIPTION:</span><%= task.description%></p>
+            <h2><span>DATE:</span><%= task.date%></h2>
+           <button class="delete"> <a href="/delete/<%= i%>">Delete</a></button>
+           <button class="update"><a href="/update/<%= i%>">Update</a></button> 
+        </div>
+        <% })%>
+       
+    </div>
+  
+        
+</div>
+
+
+
+
+<%- include("partials/footer")%>
+
+
+  

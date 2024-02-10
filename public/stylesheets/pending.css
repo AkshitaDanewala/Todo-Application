@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 90vh;
+    width: 100%;
+background-color: rgb(255,178,0);
+}
+.card-box{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid black; */
+white-space: nowrap;
+overflow-x: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 1vmax;
+
+}
+.card-box::-webkit-scrollbar{
+    display: none;
+}
+.card{
+height: 50vh;
+width: 35vw;
+border: 2px solid black;
+display: inline-block;
+margin: 0 1vmax;
+border-radius: 1vmax;
+background-color: black;
+color: white;
+padding: 2vmax 2vmax;
+
+}
+
+span{
+  
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vmax;
+    font-weight: bold;
+ margin-right: 1vmax;
+}
+
+.delete, .update{
+    padding: 0.6vmax 1.3vmax;
+    background-color: yellowgreen;
+    border-radius: 0.5vmax;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    margin-top: 1.8vmax;
+  margin-left: 1vmax;
+}
+.update{
+    background-color:rgb(242, 109, 131) ;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+
+}
+h2{
+    margin-top: 1vmax;
+}
+p{
+    margin-top: 1vmax;
+
+}

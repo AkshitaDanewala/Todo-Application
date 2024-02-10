@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(3, 175, 175);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vmax;
+    margin: 0 1vmax;
+font-weight: 600;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav h1{
+    font-size: 2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
